@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-csv_file_path = '/Users/jamellott23/Documents/GitHub/Unit-Test/vehicles_us.csv'
+csv_file_path = 'vehicles_us.csv'
 
 cars = pd.read_csv(csv_file_path)
 
