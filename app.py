@@ -230,8 +230,10 @@ st.markdown(
     "<h1 style='text-align: center; color: #3498db; font-family: Arial, sans-serif;'>Jessiah's TripleTen Software Development Tools Unit Test</h1>",
     unsafe_allow_html=True,)
 
-st.image("/Users/jamellott23/Documents/GitHub/Unit-Test/me.jpeg", caption="Me", use_column_width=True)
 
+#Adding an image just to try it
+
+st.image("me.jpeg", caption="Me", use_column_width=True)
 st.markdown(
     "<h1 style='text-align: center; color: #3498db; font-family: Arial, sans-serif;'>Car Sales Dataframe (Sample)</h1>",
     unsafe_allow_html=True,)
